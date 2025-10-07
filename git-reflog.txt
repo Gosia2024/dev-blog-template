@@ -1,0 +1,4 @@
+784b519 HEAD@{0}: commit: feat: enable mermid diagrams (config update)
+be8617c HEAD@{1}: checkout: moving from main to feat/mermaid-diagrams
+be8617c HEAD@{2}: commit: :init: first commit
+d7feaaf HEAD@{3}: clone: from https://github.com/spmse/dev-blog-template.git

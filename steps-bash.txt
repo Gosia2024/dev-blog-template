@@ -1,0 +1,165 @@
+    1  source /C/Users/Gosia/Desktop/truck_signs_api/env/Scripts/activate
+    2  pip install Pillow==9.4.0
+    3  deactivate
+    4  deacitvate
+    5  clear
+    6  chmod +x entrypoint.sh
+    7  docker build -t truck-signs-api .
+    8  chmod +x entrypoint.sh
+    9  docker build -t truck-signs-api .
+   10  docker build -t truck-signs-api .
+   11  docker build -t truck-signs-api .
+   12  docker network create trucknet
+   13  docker run -d --name trucksigns-db --network trucknet -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -v trucksigns_pgdata:/var/lib/postgresql/data postgres:15
+   14  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -e POSTGRES_HOST=trucksigns-db truck-signs-api
+   15  docker ps
+   16  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -e POSTGRES_HOST=trucksigns-db truck-signs-api
+   17  docker rm -f trucksigns-api
+   18  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -e POSTGRES_HOST=trucksigns-db truck-signs-api
+   19  docker ps -a
+   20  docker logs trucksigns-api
+   21  dos2unix entrypoint.sh
+   22  chmod +x entrypoint.sh
+   23  docker build -t truck-signs-api .
+   24  docker network create trucknet
+   25  docker run -d --name trucksigns-db --network trucknet -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -v trucksigns_pgdata:/var/lib/postgresql/data postgres:15
+   26  docker ps -a | grep trucksigns-db
+   27  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -e POSTGRES_HOST=trucksigns-db truck-signs-api
+   28  docker rm -f trucksigns-api
+   29  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -e POSTGRES_HOST=trucksigns-db truck-signs-api
+   30  docker ps
+   31  docker ps -a
+   32  docker logs trucksigns-api
+   33  dos2unix entrypoint.sh
+   34  chmod +x entrypoint.sh
+   35  ls -l entrypoint.sh
+   36  chmod +x entrypoint.sh
+   37  ls -l entrypoint.sh
+   38  ls -l entrypoint.sh
+   39  chmod +x entrypoint.sh
+   40  ls -l entrypoint.sh
+   41  docker build -t truck-signs-api .
+   42  docker rm -f trucksigns-api
+   43  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -e POSTGRES_HOST=trucksigns-db truck-signs-api
+   44  docker logs trucksigns-api
+   45  file entrypoint.sh
+   46  hexdump -C entrypoint.sh | head -20
+   47  docker build -t truck-signs-api .
+   48  docker rm -f trucksigns-api
+   49  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 -e POSTGRES_USER=truckuser -e POSTGRES_PASSWORD=secretpassword -e POSTGRES_DB=trucksignsdb -e POSTGRES_HOST=trucksigns-db truck-signs-api
+   50  docker ps
+   51  docker logs trucksigns-api
+   52  docker ps -a
+   53  docker logs trucksigns-api
+   54  docker rm -f trucksigns-api
+   55  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file .env truck-signs-api
+   56  ls -la .env
+   57  docker rm -f trucksigns-api
+   58  docker build -t truck-signs-api .
+   59  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file .env truck-signs-api
+   60  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file truck_signs_designs/settings/.env truck-signs-api
+   61  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file /c/Users/Gosia/Desktop/truck_signs_api/truck_signs_designs/settings/.env truck-signs-api
+   62  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file C:\Users\Gosia\Desktop\truck_signs_api\truck_signs_designs\settings\.env truck-signs-api
+   63  docker rm -f trucksigns-api
+   64  docker build -t truck-signs-api .
+   65  docker build -t truck-signs-api .
+   66  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file .env truck-signs-api
+   67  docker ps
+   68  docker logs trucksigns-api
+   69  docker build --no-cache -t truck-signs-api .
+   70  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file .env truck-signs-api
+   71  docker rm -f trucksigns-api
+   72  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file .env truck-signs-api
+   73  docker ps -a
+   74  docker logs trucksigns-api
+   75  docker build --no-cache -t truck-signs-api .
+   76  docker build --no-cache -t truck-signs-api .
+   77  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file .env truck-signs-api
+   78  docker rm -f trucksigns-api
+   79  docker run -d --name trucksigns-api --network trucknet -p 8020:8020 --env-file .env truck-signs-api
+   80  docker ps
+   81  gosiasamosia
+   82  git init
+   83  git branch
+   84  git checkout -b feature
+   85  git add .
+   86  git add entrypoint.sh .gitattributes
+   87  git commit -m "Fix line endings for entrypoint.sh"
+   88  git push
+   89  git push --set-upstream origin feature
+   90  git remote -v
+   91  git@gitlab.com:Margo2025/truck_signs_api.git
+   92  git remote set-url origin git@gitlab.com:Margo2025/truck_signs_api.git
+   93  git remote -v
+   94  git push --set-upstream origin feature
+   95  git remote set-url origin git@gitlab.com:margo2025-group/truck_signs_api.git
+   96  git remote set-url origin git@gitlab.com:margo2025-group/truck_signs_api.git
+   97  git checkout feature
+   98  git add .
+   99  git commit -m "Initial commit"
+  100  git push --set-upstream origin feature
+  101  ls ~/.ssh/id_gitlab.pub
+  102  cat ~/.ssh/id_gitlab.pub
+  103  ssh -T git@gitlab.com
+  104  eval $(ssh-agent -s)
+  105  ssh-add ~/.ssh/id_gitlab
+  106  ssh -T git@gitlab.com
+  107  git push --set-upstream origin feature
+  108  git checkout -b main
+  109  git push -u origin main
+  110  git branch -r
+  111  git log main..feature --oneline
+  112  git branch -a
+  113  gosiasamosia
+  114  ~gosiasamosia
+  115  gosiasamosia
+  116  gosiasamosia
+  117  gosiasamosia
+  118  logut
+  119  logout
+  120  exit
+  121  pnpm install
+  122  npm install
+  123  npm run start
+  124  npm start
+  125  npm run start
+  126  npm install --save @docusaurus/theme-mermaid
+  127  npm run start
+  128  # npm
+  129  npm i -D @docusaurus/theme-mermaid@3.5.2        @docusaurus/core@3.5.2        @docusaurus/preset-classic@3.5.2
+  130  # falls vorhanden, gleiche weitere @docusaurus/*-Pakete an:
+  131  # npm i -D @docusaurus/types@3.5.2 @docusaurus/plugin-content-blog@3.5.2
+  132  npm run start
+  133  npm start run
+  134  npm run start
+  135  npm run start
+  136  # Beispiel: bei 3.9.1 alles hochziehen – oder verwende deine Version
+  137  npm i -D @docusaurus/core@3.9.1 @docusaurus/preset-classic@3.9.1 @docusaurus/theme-mermaid@3.9.1
+  138  npm i -D @docusaurus/module-type-aliases @docusaurus/tsconfig
+  139  git remote -v         # powinno pokazać origin -> ...dev-blog-template.git
+  140  git status            # brak zmian do commita
+  141  git log --oneline -n3 # ostatnie commity
+  142  git remote set-url origin https://github.com/Gosia2024/dev-blog-template.git
+  143  git remote -v  
+  144  git status
+  145  git add .
+  146  git commit -m:"init: first commit"
+  147  git remote add origin https://github.com/Gosia2024/dev-blog-template.git
+  148  git push -u orgin main
+  149  git push
+  150  git status
+  151  git checkout -b feat/mermaid-diagrams
+  152  git add .
+  153  git commit -m "feat: enabel mermaid theme and fix hompate"
+  154  git push
+  155  git push -u origin feat/mermaid-diagrams
+  156  git status
+  157  git fetch origin
+  158  git diff --stat mian..feat/mermaid-diagrams
+  159  git diff --stat main..feat/mermaid-diagrams     # jeśli pusto → brak różnic
+  160  git log --oneline main..feat/mermaid-diagrams   # jeśli pusto → brak commitów na feature
+  161  git add .
+  162  git commit -m "feat: enable mermid diagrams (config update)"
+  163  git push
+  164  git log --oneline --graph --decorate --all > git-history.txt
+  165  history | tail -n 200 > steps-bash.txt
