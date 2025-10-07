@@ -5,6 +5,7 @@ import {config as dotenvconfig}  from "dotenv";
 
 dotenvconfig();
 
+
 /* TODO: change to read configuration from environment */
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 
@@ -36,6 +37,19 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+
+
+
+  themes: ['@docusaurus/theme-mermaid'],
+  // In order for Mermaid code blocks in Markdown to work,
+  // you also need to enable the Remark plugin with this option
+  markdown: {
+    mermaid: true,
+  },
+
+
+
 
   presets: [
     [
@@ -161,5 +175,7 @@ if (blogEnabled) {
   (config.themeConfig.navbar as any).items.push({to: '/blog', label: 'Blog', position: 'left'});
   (config.themeConfig.footer as any).links[2].items.push({to: '/blog', label: 'Blog'});
 }
+
+
 
 export default config;
