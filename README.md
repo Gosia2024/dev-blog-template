@@ -1,4 +1,6 @@
+
 # My Developer Blog
+test
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
@@ -17,7 +19,6 @@ This repository hosts a developer blog built with Docusaurus. It includes tools 
   - [Deployment](#deployment)
     - [Deploy to Github Pages](#deploy-to-github-pages)
     - [Deploying using NGINX](#deploying-using-nginx)
-    - [Contributing](#contributing)
 
 ## Quickstart
 
