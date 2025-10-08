@@ -1,5 +1,6 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 
 export default function PortfolioPage(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -11,7 +12,12 @@ export default function PortfolioPage(): JSX.Element {
         <section id="hero-element" className="margin-vert--lg">
           <div className="container">
             <p>MY HERO comes here</p>
+           
           </div>
+          
+      <Link href='/docs/projects/overview'>
+        My Projects
+      </Link>
         </section>
 
         <section className="margin-vert--lg">
