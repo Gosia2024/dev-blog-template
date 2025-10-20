@@ -1,0 +1,52 @@
+* 784b519 (HEAD -> feat/mermaid-diagrams, origin/feat/mermaid-diagrams) feat: enable mermid diagrams (config update)
+* be8617c (origin/main, origin/HEAD, main) :init: first commit
+| * df28f31 (origin/some-other-branch) Update README.md
+|/  
+* d7feaaf ci: remove unnecessary workflow_dispatch trigger (#20)
+* 8953ff0 docs: update v-server project template (#18)
+* e4c1b0f Create CONTRIBUTING.md (#16)
+* 88efc6b fix: adjust invalid dynamic footer assignment (#17)
+* 8b5d5b5 chore: disable blog
+* 5cce05d chore: add issue templates (#14)
+* db4be74 docs: add minimal guide on cli command structure (#12)
+* a44464c PR for add-dockerfile (#13)
+* 0e3b71d docs: enhance readme, add deployment guide (#11)
+| * 98c64df (origin/add-tab-component) chore: add docusaurus default deploy url
+| * 1a0e0ba chore: add examples for react-components to docs
+| * 6533737 chore: add syntax highlighting to config
+| * 7601bb8 chore: add CustomTabsList
+|/  
+* eed9922 chore: update docusaurus project
+* 21e76af chore: add LICENSE
+* fec9b00 GitHub admonition (#7)
+*   2373b83 Merge pull request #3 from spmse/fix-config
+|\  
+| * 923f02c ci: adjust workflow triggers
+| * 4add4e3 ci: adjust workflow triggers
+| * d0d309a fix: adjust docusaurus config with valid baseUrl
+|/  
+*   abfec3d Merge pull request #2 from spmse/another-demo
+|\  
+| * 0d72f9c ci: adjust needs for workflow
+| * 4c055a1 fix: adjust workflow reference
+| * 74a8c05 fix: adjust workflow reference
+| * e016ddd fix: adjust workflow reference
+| * 1fba5b9 fix: adjust workflow reference
+| * 4b14201 ci: add main.yml to abstract pipeline execution
+| * bc4ff09 ci: adjust workflow triggers
+| * 9c92323 ci: adjust PR title
+| * e8011b8 ci: adjust if-rules for deploy job
+| * ec0346b ci: update workflow to recursively copy directory contents for pages deployment
+| * bc110b1 chore: update project contents
+| * 18b125b ci: adjust package manager scripts
+| * ab8e5bf ci: adjust package manager
+| * b4c111b fix: use 'correct' quotes for github
+| * 2419b4f ci: add deployment for main
+| * 381e137 ci: update workflow config
+| * 99d01cf ci: update workflow config
+| * 06e9187 ci: update workflow config
+| * 230d15e docs: update README
+|/  
+* 3ad75f8 ci: update workflow config
+* b43584b chore: update project structure
+* 5da088f chore: init project

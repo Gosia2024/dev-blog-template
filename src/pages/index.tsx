@@ -29,6 +29,12 @@ function HomepageHeader() {
           >
             To my Projects
           </Link>
+            <Link
+            className="button button--secondary button--lg"
+            to="/docs/projects/overview"
+          >
+           Portfolio
+          </Link>
         </div>
       </div>
     </header>
